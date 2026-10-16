@@ -1,0 +1,51 @@
+name: stressless_app
+description: Professional stress detection and monitoring system
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # Networking
+  dio: ^5.4.0
+  http: ^1.1.0
+
+  # Local Storage
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  flutter_secure_storage: ^9.0.0
+
+  # UI Components
+  fl_chart: ^0.65.0
+  google_fonts: ^6.1.0
+  intl: ^0.18.1
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.6.0
+
+  # Utilities
+  logger: ^2.0.2
+  equatable: ^2.0.5
+  camera: ^0.12.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+camera: ^0.10.5+5
+path_provider: ^2.1.1
